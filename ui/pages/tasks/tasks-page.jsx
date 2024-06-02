@@ -22,7 +22,7 @@ export default function TasksPage() {
         <Heading fontWeight={600}>
           <Text
             as="span"
-            bgGradient="linear(to-l, #675AAA, #4399E1)"
+            bgGradient="linear(to-l, #ae56a2, #b7410e)"
             bgClip="text"
           >
             Simple Tasks

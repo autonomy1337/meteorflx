@@ -38,21 +38,14 @@ export function Footer() {
             <IconButton
               as="a"
               target="_blank"
-              href="https://github.com/fredmaiaarantes/simpletasks"
+              href="https://github.com/autonomy1337"
               aria-label="GitHub"
               icon={<FaGithub fontSize="20px" />}
             />
             <IconButton
               as="a"
               target="_blank"
-              href="https://twitter.com/fredmaiaarantes"
-              aria-label="Twitter"
-              icon={<FaTwitter fontSize="20px" />}
-            />
-            <IconButton
-              as="a"
-              target="_blank"
-              href="https://linkedin.com/in/fredmaiaarantes"
+              href="https://www.linkedin.com/in/felix-raab-893b70246/"
               aria-label="LinkedIn"
               icon={<FaLinkedin fontSize="20px" />}
             />
@@ -65,13 +58,13 @@ export function Footer() {
             sm: 'start',
           }}
         >
-          &copy; {new Date().getFullYear()} Charm (Chakra-UI, React,{' '}
+          &copy; {new Date().getFullYear()} Raab
           <a href="https://meteor.com" target="_blank">
-            Meteor.js
+            
           </a>
-          ) by{' '}
+          {' '}
           <a href="https://twitter.com/fredmaiaarantes" target="_blank">
-            @fredmaiaarantes
+            by Felix Raab
           </a>
           .
         </Text>

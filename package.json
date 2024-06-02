@@ -12,7 +12,7 @@
     "visualize": "meteor --production --extra-packages bundle-visualizer"
   },
   "dependencies": {
-    "@babel/runtime": "^7.24.0",
+    "@babel/runtime": "^7.24.5",
     "@chakra-ui/icons": "^2.1.1",
     "@chakra-ui/react": "^2.8.2",
     "@emotion/react": "^11.11.4",
@@ -23,12 +23,12 @@
     "framer-motion": "^6.5.1",
     "history": "^5.3.0",
     "meteor-node-stubs": "^1.2.7",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-helmet": "^6.1.0",
-    "react-hook-form": "^7.51.0",
-    "react-router-dom": "^6.22.3",
-    "zod": "^3.22.4"
+    "react-hook-form": "^7.51.5",
+    "react-router-dom": "^6.23.1",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
     "@quave/eslint-config-quave": "^1.0.7",

@@ -26,17 +26,23 @@ export function Navbar() {
         borderStyle="solid"
         borderColor={useColorModeValue('gray.200', 'gray.900')}
         align="center"
+        justify="space-between"
       >
-        <Flex flex={{ base: 1 }} justify="start">
+        <Flex align="center">
+          <img src="./logo_transparent.png" alt="Logo" style={{ height: '60px', marginRight: '50px' }} />
+        </Flex>
+
+        <Flex flex={1} justify="center" align="center" position="relative">
           <Text
             as="span"
-            bgGradient="linear(to-l, #675AAA, #4399E1)"
+            bgGradient="linear(to-l, #ae56a2, #b7410e)"
             bgClip="text"
             fontWeight="bold"
             fontFamily="heading"
-            textAlign="left"
+            textAlign="center"
+            position="absolute"
           >
-            Simple Tasks
+            Simple Task by Felix Raab
           </Text>
         </Flex>
 

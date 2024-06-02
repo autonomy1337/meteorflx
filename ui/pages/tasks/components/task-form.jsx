@@ -23,7 +23,7 @@ export function TaskForm() {
             <Button
               h="2.5rem"
               size="sm"
-              bg="blue.600"
+              bgGradient="linear(to-l, #ae56a2, #b7410e)"
               color="white"
               type="submit"
               isLoading={isSubmitting}
